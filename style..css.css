@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Lato&display=swap");
+
+/* Generated design choices. Save as style.css and link it in each HTML head. */
+
+/* Root typography settings */
+html {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.7;
+  color: #45496A;
+  background-color: #F9F8CD;
+}
+
+body {
+  margin: 0;
+}
+
+/* General heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Pacifico", sans-serif;
+  line-height: 1.2;
+}
+
+/* Specific element text styles */
+h1 {
+  font-size: 2.441rem;
+}
+
+h2 {
+  font-size: 1.953rem;
+}
+
+h3 {
+  font-size: 1.563rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #FF8B9D;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: #FCF6B9;
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: 3px solid #45496A;
+  outline-offset: 4px;
+}
+
+header, main, footer {
+  max-width: 48rem;
+  margin-inline: auto;
+  padding: 4rem;
+}
+
+button, .button {
+  color: #FFC9C9;
+  background-color: #FF8B9D;
+}
+
+button:hover, .button:hover {
+  background-color: #FCF6B9;
+}
+
+.alternate {
+  color: #7D8BAE;
+  background-color: #FCD1B7;
+  padding: 4rem;
+}
+/* -------------  Header styles ------------------------- */
+header {
+  display: flex;
+  justify-content: space-between; /* site title left, nav right */
+  align-items: center;           /* vertical centering */
+  padding: 1rem;
+}
+
+/* Styles the site title at the top of the header */
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;   /* remove bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;      /* horizontal layout for links */
+  gap: 1rem;          /* space between items */
+}
+
+nav a {
+  text-decoration: none;
+  color: 
+#FF8B9D;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: 
+#0066cc; /* hover color */
+}
+
+/* ------------- END Header styles  */
